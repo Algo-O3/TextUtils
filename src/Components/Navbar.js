@@ -16,14 +16,7 @@ export default function Navbar(props) {
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/">{props.home}</Link>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/about">About</Link>
-        </li>
       </ul>
-      {/*<form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-primary"  type="submit">Search</button>
-      </form>*/}
       </div>
   <div className={`form-check form-switch text-${props.txt}`} >
   <input className="form-check-input" type="checkbox" onClick={props.click} role="switch" id="flexSwitchCheckDefault"/>
